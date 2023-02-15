@@ -1,0 +1,22 @@
+# Source: gow-new-1/templates/ingress.yaml
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  annotations:
+    kubernetes.io/ingress.class: nginx
+    meta.helm.sh/release-name: 'gow-new-1'
+  name: gow-new-1
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+spec:
+  rules:
+  - http:
+      paths:
+      - pathType: ImplementationSpecific
+        backend:
+          service:
+            name: gow-new-1
+            port:
+              number: 80
+    host: gow-new-1.jx-staging.10.0.0.222.nip.io

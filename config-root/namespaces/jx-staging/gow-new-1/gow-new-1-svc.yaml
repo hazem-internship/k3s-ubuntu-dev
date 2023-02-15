@@ -1,0 +1,20 @@
+# Source: gow-new-1/templates/service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: gow-new-1
+  labels:
+    chart: "gow-new-1-0.0.3"
+    gitops.jenkins-x.io/pipeline: 'namespaces'
+  annotations:
+    meta.helm.sh/release-name: 'gow-new-1'
+  namespace: jx-staging
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    targetPort: 8080
+    protocol: TCP
+    name: http
+  selector:
+    app: gow-new-1-gow-new-1

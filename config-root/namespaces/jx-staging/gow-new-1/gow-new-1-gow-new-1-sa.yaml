@@ -1,0 +1,10 @@
+# Source: gow-new-1/templates/sa.yaml
+apiVersion: v1
+kind: ServiceAccount
+metadata:
+  name: gow-new-1-gow-new-1
+  annotations:
+    meta.helm.sh/release-name: 'gow-new-1'
+  namespace: jx-staging
+  labels:
+    gitops.jenkins-x.io/pipeline: 'namespaces'
