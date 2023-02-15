@@ -3,9 +3,11 @@ namespace: jx-staging
 repositories:
 - name: dev
   url: https://hazem-internship.github.io/gow-new-1/
+- name: dev2
+  url: https://hazem-internship.github.io/hazem-internship.github.io/
 releases:
 - chart: dev/gow-new-1
-  version: 0.0.3
+  version: 0.0.8
   name: gow-new-1
 templates: {}
 renderedvalues: {}
