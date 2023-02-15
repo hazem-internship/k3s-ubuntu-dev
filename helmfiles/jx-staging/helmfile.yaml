@@ -5,7 +5,7 @@ repositories:
   url: https://hazem-internship.github.io/gow-new-1/
 releases:
 - chart: dev/gow-new-1
-  version: 0.0.3
+  version: 0.0.4
   name: gow-new-1
 templates: {}
 renderedvalues: {}
