@@ -1,0 +1,11 @@
+filepath: ""
+namespace: jx-staging
+repositories:
+- name: dev
+  url: https://hazem-internship.github.io/gow-new-1/
+releases:
+- chart: dev/gow-new-1
+  version: 0.0.3
+  name: gow-new-1
+templates: {}
+renderedvalues: {}
