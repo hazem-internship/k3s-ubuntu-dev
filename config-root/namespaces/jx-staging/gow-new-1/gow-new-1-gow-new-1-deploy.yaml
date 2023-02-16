@@ -5,7 +5,7 @@ metadata:
   name: gow-new-1-gow-new-1
   labels:
     draft: draft-app
-    chart: "gow-new-1-0.0.13"
+    chart: "gow-new-1-0.0.14"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'gow-new-1'
@@ -25,11 +25,11 @@ spec:
       serviceAccountName: gow-new-1-gow-new-1
       containers:
       - name: gow-new-1
-        image: "ghcr.io/hazem-internship/gow-new-1:0.0.13"
+        image: "ghcr.io/hazem-internship/gow-new-1:0.0.14"
         imagePullPolicy: IfNotPresent
         env:
         - name: VERSION
-          value: 0.0.13
+          value: 0.0.14
         envFrom: null
         ports:
         - name: http
