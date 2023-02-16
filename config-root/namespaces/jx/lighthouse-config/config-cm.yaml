@@ -9,6 +9,7 @@ data:
       enabled:
         hazem-internship/gow-new-1: true
         hazem-internship/k3s-ubuntu-dev: true
+        hazem-internship/spring: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         hazem-internship/gow-new-1: merge
         hazem-internship/k3s-ubuntu-dev: merge
+        hazem-internship/spring: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - hazem-internship/k3s-ubuntu-dev
         - hazem-internship/gow-new-1
+        - hazem-internship/spring
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - hazem-internship/k3s-ubuntu-dev
         - hazem-internship/gow-new-1
+        - hazem-internship/spring
       target_url: http://lighthouse.jx.10.0.0.222.nip.io/merge/status
 kind: ConfigMap
 metadata:
