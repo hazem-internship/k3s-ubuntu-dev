@@ -4,7 +4,7 @@ kind: Service
 metadata:
   name: gow-new-1
   labels:
-    chart: "gow-new-1-0.0.14"
+    chart: "gow-new-1-0.0.15"
     gitops.jenkins-x.io/pipeline: 'namespaces'
   annotations:
     meta.helm.sh/release-name: 'gow-new-1'
