@@ -282,14 +282,14 @@
   path: helmfiles/jx-staging/helmfile.yaml
   releases:
   - apiVersion: v1
-    appVersion: 0.0.14
+    appVersion: 0.0.15
     description: A Helm chart for Kubernetes
-    firstDeployed: "2023-02-16T10:32:26Z"
+    firstDeployed: "2023-02-17T15:28:57Z"
     icon: https://raw.githubusercontent.com/cdfoundation/artwork/master/jenkinsx/icon/color/jenkinsx-icon-color.png
-    lastDeployed: "2023-02-16T10:32:26Z"
+    lastDeployed: "2023-02-17T15:28:57Z"
     name: gow-new-1
     releaseName: gow-new-1
     repositoryName: dev
     repositoryUrl: https://hazem-internship.github.io/gow-new-1/
     resourcePath: config-root/namespaces/jx-staging/gow-new-1
-    version: 0.0.14
+    version: 0.0.15
