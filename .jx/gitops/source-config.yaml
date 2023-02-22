@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: gow-2
     - name: gow-new-1
     - name: spring
     scheduler: in-repo
