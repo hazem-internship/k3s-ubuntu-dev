@@ -13,5 +13,8 @@ releases:
   name: gow-new-1
   values:
   - jx-values.yaml
+- chart: dev/gow-2
+  version: 0.0.1
+  name: gow-2
 templates: {}
 renderedvalues: {}
