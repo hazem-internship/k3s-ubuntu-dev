@@ -7,6 +7,7 @@ data:
       LinkURL: null
     in_repo_config:
       enabled:
+        hazem-internship/gow-2: true
         hazem-internship/gow-new-1: true
         hazem-internship/k3s-ubuntu-dev: true
         hazem-internship/spring: true
@@ -21,6 +22,7 @@ data:
         required-if-present-contexts: null
         skip-unknown-contexts: false
       merge_method:
+        hazem-internship/gow-2: merge
         hazem-internship/gow-new-1: merge
         hazem-internship/k3s-ubuntu-dev: merge
         hazem-internship/spring: merge
@@ -35,6 +37,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/k3s-ubuntu-dev
+        - hazem-internship/gow-2
         - hazem-internship/gow-new-1
         - hazem-internship/spring
       - labels:
@@ -47,6 +50,7 @@ data:
         - needs-rebase
         repos:
         - hazem-internship/k3s-ubuntu-dev
+        - hazem-internship/gow-2
         - hazem-internship/gow-new-1
         - hazem-internship/spring
       target_url: http://lighthouse.jx.10.0.0.222.nip.io/merge/status
